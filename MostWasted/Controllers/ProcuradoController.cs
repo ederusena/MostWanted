@@ -11,7 +11,6 @@ namespace MostWanted.Controllers
     [Route("api/[controller]")]
     public class ProcuradoController : ControllerBase
     {
-
         private readonly ProcuradoRepository procuradoRepository;
         
         public ProcuradoController(DataBaseContext context)
@@ -126,7 +125,6 @@ namespace MostWanted.Controllers
             }
         }
 
-
         [HttpGet("recompensaCrescente")]
         public ActionResult<ProcuradoModel> GetRecompensa()
         {
@@ -188,10 +186,6 @@ namespace MostWanted.Controllers
                 return BadRequest(new { message = $"Não foi possível inserir o procurado. Detalhes: {error.Message}" });
             }
         }
-
-
-
-
 
         [HttpDelete("{id:int}")]
         public ActionResult<ProcuradoModel> Delete([FromRoute] int id)
