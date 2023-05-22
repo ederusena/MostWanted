@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace MostWasted.Migrations
+namespace MostWanted.Migrations
 {
     /// <inheritdoc />
     public partial class Procurado : Migration

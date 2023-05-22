@@ -2,12 +2,12 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using MostWasted.Repository.Context;
+using MostWanted.Repository.Context;
 using Oracle.EntityFrameworkCore.Metadata;
 
 #nullable disable
 
-namespace MostWasted.Migrations
+namespace MostWanted.Migrations
 {
     [DbContext(typeof(DataBaseContext))]
     partial class DataBaseContextModelSnapshot : ModelSnapshot

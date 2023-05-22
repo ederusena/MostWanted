@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Mvc;
-using MostWasted.Models;
-using MostWasted.Repository;
-using MostWasted.Repository.Context;
+using MostWanted.Models;
+using MostWanted.Repository;
+using MostWanted.Repository.Context;
 using System.Net;
 
-namespace MostWasted.Controllers
+namespace MostWanted.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

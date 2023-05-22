@@ -1,8 +1,8 @@
-﻿using MostWasted.Models;
-using MostWasted.Repository.Context;
+﻿using MostWanted.Models;
+using MostWanted.Repository.Context;
 using System.Linq;
 
-namespace MostWasted.Repository
+namespace MostWanted.Repository
 {
     public class ProcuradoRepository
     {

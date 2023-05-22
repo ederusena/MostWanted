@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace MostWasted.Models
+namespace MostWanted.Models
 {
     public class ProcuradoModel
     {

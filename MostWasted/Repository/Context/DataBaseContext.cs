@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MostWasted.Models;
+using MostWanted.Models;
 
-namespace MostWasted.Repository.Context
+namespace MostWanted.Repository.Context
 {
     public class DataBaseContext : DbContext
     {
